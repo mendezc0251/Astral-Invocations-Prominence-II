@@ -15,12 +15,15 @@ body{
 .spell-container{
     display:flex;
     justify-content: space-evenly;
+    gap:8px;
 }
 .spell{
-    flex:1
+    flex:1;
+    min-width:0;
+    text-align:center;
 }
 .spell video{
-    width:auto;
+    width: 100%;
     margin:auto;
 }
 .arcane{
