@@ -14,12 +14,13 @@ body{
 }
 .spell-container{
     display:flex;
+    width:100%;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     gap:8px;
 }
 .spell{
-    flex:1;
-    min-width:0;
+    flex:1 0 21%;
     text-align:center;
 }
 .spell video{
